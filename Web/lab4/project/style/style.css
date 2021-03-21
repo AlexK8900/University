@@ -9,6 +9,12 @@ div{
     background-color: red;
     margin: 10px 10px 10px 10px;
 }
+div.text{
+	background: none;
+	margin-top: 10px;
+	height: 100%;
+	width:100%;
+}
 
 #d2 {
     background-color: green;
