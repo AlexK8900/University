@@ -83,17 +83,19 @@
 }
 .products_content{
 	height: 492px;
+	position: relative;
+	z-index: 10; 
 }
 .products_info{
 	height: 99px;
 	background-color: #F3F3F3;
 	position: relative;
-	z-index: 1;
+	z-index: -10;
 }
 .product_img{
+	position: relative;
 	background-image: url(../img/leaf3.png);
-	background-position: right 15% top;      
-	background-repeat: no-repeat;
-	position: relative; 
+	background-position: right 15% top;
+	background-repeat: no-repeat;    
 	z-index: 10000;
 }
